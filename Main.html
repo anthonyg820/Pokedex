@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel = "stylesheet" href = "Styles.css">
+        <script src = "Core.js"></script>
+        <title>Pokedex</title>
+
+    </head>
+
+    <body onload = "setApp()" onresize = "setDimensions()">
+        
+        <div id = "ALL_CONTAINER">
+
+            <aside id = "sidebar">
+
+                <ol id = "pokemonList">
+
+                    <!-- This list is generated in Core.js upon page load -->
+
+                </ol>
+
+            </aside>
+    
+            <section id = "content">
+    
+                <div class = "buttonContainer">
+
+                    <img id = "prevButton" src = "Res/prev.svg" onclick = "prevPokemon()">
+
+                </div>
+
+                <div id = "pokeContent">
+
+                    <img id = "pokemonLogo" src = "Res/PokemonLogo.png">
+                    
+                    <div id = "pokeName" class = "redBG">
+
+                        <h2 id = "pokeName_Content" class = "whiteFG">  </h2>
+
+                    </div>
+
+                    <img id = "sprite" src = "#">
+
+                    <div id = "pokeInfo" class = "redBG">
+
+                        <div id = "pokeInfo_Content" class = "whiteFG">
+
+                            <h3> TYPE </h3>
+                            <p id = "pokeType">  </p>
+
+                            <br>
+
+                            <h3> WEIGHT </h3>
+                            <p id = "pokeWeight">  </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class = "buttonContainer">
+
+                    <img id = "nextButton" src = "Res/next.svg" onclick = "nextPokemon()">
+
+                </div>
+    
+            </section>
+
+        </div>
+
+    </body>
+
+</html>
