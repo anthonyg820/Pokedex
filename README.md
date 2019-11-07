@@ -3,3 +3,4 @@ This project uses the Fetch API to display information and images for all of the
 
 # What I've Learned
 - How to use the Fetch API to gather data from an external API
+- Getting comfortable with ES6 style JavaScript (arrow functions, promises, etc).
